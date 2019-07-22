@@ -15,6 +15,8 @@
 		EA1117C522E61ED500C4F0B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1117C322E61ED500C4F0B3 /* Main.storyboard */; };
 		EA1117C722E61ED700C4F0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1117C622E61ED700C4F0B3 /* Assets.xcassets */; };
 		EA1117CA22E61ED700C4F0B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1117C822E61ED700C4F0B3 /* LaunchScreen.storyboard */; };
+		EA1117D222E621D700C4F0B3 /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1117D122E621D700C4F0B3 /* car.swift */; };
+		EA23069622E654BA002CB579 /* draw_car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23069522E654BA002CB579 /* draw_car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EA1117C622E61ED700C4F0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1117C922E61ED700C4F0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1117CB22E61ED700C4F0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1117D122E621D700C4F0B3 /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
+		EA23069522E654BA002CB579 /* draw_car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draw_car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				EA1117C622E61ED700C4F0B3 /* Assets.xcassets */,
 				EA1117C822E61ED700C4F0B3 /* LaunchScreen.storyboard */,
 				EA1117CB22E61ED700C4F0B3 /* Info.plist */,
+				EA1117D122E621D700C4F0B3 /* car.swift */,
+				EA23069522E654BA002CB579 /* draw_car.swift */,
 			);
 			path = car1;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			files = (
 				EA1117C022E61ED500C4F0B3 /* GameScene.swift in Sources */,
 				EA1117C222E61ED500C4F0B3 /* GameViewController.swift in Sources */,
+				EA1117D222E621D700C4F0B3 /* car.swift in Sources */,
 				EA1117BA22E61ED500C4F0B3 /* AppDelegate.swift in Sources */,
+				EA23069622E654BA002CB579 /* draw_car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
