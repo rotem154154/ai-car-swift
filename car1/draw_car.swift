@@ -65,8 +65,7 @@ class draw_car{
     let back_y = cr.y - cr.wheel_base/2 * sin(cr.rotation)
     node.position = CGPoint(x: CGFloat(cr.x),y: CGFloat(cr.y))
     node.zRotation = CGFloat(cr.rotation)
-    var rot = -cr.rotation
-    print(String(rot/pi) + " " + String(rot) + String())
+    let rot = -cr.rotation
     
     let front_x1 = front_x + (wheel_base2/2 * sin(rot))
     let front_y1 = front_y + (wheel_base2/2 * cos(rot))

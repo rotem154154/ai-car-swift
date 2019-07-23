@@ -17,6 +17,7 @@
 		EA1117CA22E61ED700C4F0B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1117C822E61ED700C4F0B3 /* LaunchScreen.storyboard */; };
 		EA1117D222E621D700C4F0B3 /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1117D122E621D700C4F0B3 /* car.swift */; };
 		EA23069622E654BA002CB579 /* draw_car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23069522E654BA002CB579 /* draw_car.swift */; };
+		EA296DE622E67C72003D6362 /* dense.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA296DE522E67C72003D6362 /* dense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EA1117CB22E61ED700C4F0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1117D122E621D700C4F0B3 /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
 		EA23069522E654BA002CB579 /* draw_car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draw_car.swift; sourceTree = "<group>"; };
+		EA296DE522E67C72003D6362 /* dense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				EA1117CB22E61ED700C4F0B3 /* Info.plist */,
 				EA1117D122E621D700C4F0B3 /* car.swift */,
 				EA23069522E654BA002CB579 /* draw_car.swift */,
+				EA296DE522E67C72003D6362 /* dense.swift */,
 			);
 			path = car1;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				EA1117D222E621D700C4F0B3 /* car.swift in Sources */,
 				EA1117BA22E61ED500C4F0B3 /* AppDelegate.swift in Sources */,
 				EA23069622E654BA002CB579 /* draw_car.swift in Sources */,
+				EA296DE622E67C72003D6362 /* dense.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

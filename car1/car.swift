@@ -12,6 +12,7 @@ import SpriteKit
 
 
 class car{
+  let brain = dense(layers_sizes: [6,8,6,3])
   var x : Float32 = 0
   var y : Float32 = 0
   var rotation : Float32 = 0
@@ -19,7 +20,7 @@ class car{
   var wheel_base : Float32 = 60
   
   var acc : Float32 = 0.01
-  var stering : Float32 = 1
+  var stering : Float32 = 2
   var wind : Float32 = 0.001
   
   var down : Float32 = 0
@@ -50,6 +51,21 @@ class car{
     
     
     
+  }
+  
+  func predict(){
+    let dx = x + 100
+    let dy = y - 400
+    let out = self.brain.forward(input_stack: [x/500,y/500,rotation/pi,speed/4,dx/500,dy/500])
+    self.down = out[0]
+    self.left = out[1]
+    self.right = out[2]
+  }
+  func reset(){
+    x = 0
+    y = 0
+    rotation = 0
+    speed = 0
   }
   
 }
