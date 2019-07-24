@@ -12,7 +12,7 @@ import SpriteKit
 
 
 class car{
-  let brain = dense(layers_sizes: [6,8,6,3])
+  let brain = dense(layers_sizes: [6,10,8,6,3])
   var x : Float32 = 0
   var y : Float32 = 0
   var rotation : Float32 = 0
@@ -24,8 +24,8 @@ class car{
   var wind : Float32 = 0.001
   
   var down : Float32 = 0
-  var left : Float32 = 0.7
-  var right : Float32 = 1
+  var left : Float32 = 1
+  var right : Float32 = 0.3
   
   init() {
     
@@ -57,6 +57,7 @@ class car{
     let dx = x + 100
     let dy = y - 400
     let out = self.brain.forward(input_stack: [x/500,y/500,rotation/pi,speed/4,dx/500,dy/500])
+//    print(out,x)
     self.down = out[0]
     self.left = out[1]
     self.right = out[2]
